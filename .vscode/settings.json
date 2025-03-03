@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "'Trebuchet MS' , Consolas, 'Courier New', monospace",
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "bounded",
     "editor.cursorBlinking": "smooth",
     "editor.lineHeight": 1.5,
@@ -71,5 +71,6 @@
     "editor.minimap.size": "proportional",
     "editor.inlineSuggest.edits.renderSideBySide": "auto",
     "editor.suggest.showClasses": true,
-    "editor.suggest.showColors": true
+    "editor.suggest.showColors": true,
+    "diffEditor.ignoreTrimWhitespace": true
 }
