@@ -1,12 +1,18 @@
 <?php 
 // array bersarang / nested array
-$mahasiswa = ['Aditya', 243040096, 'prahazaditya@gmail.com', 'Teknik Informatika'];
-$mahasiswa2 = ['Escobar', 24340000, '@gmail.com', 'Teknik Informatika'];
-
 $mahasiswa = [
-    ['Aditya', 243040096, 'prahazaditya@gmail.com','Teknik Informatika'],
-    ['Pablo', 243040000, 'pablo@gmail.com',"Teknik Informatika"],
-    ['Escobar', 243040001, 'escobar@gmail.com',"Teknik Informatika"]
+    [
+        'nama' => 'Aditya',
+        'npm' => 243040096, 
+        'email' => 'prahazaditya@gmail.com',
+        'jurusan' =>'Teknik Informatika'
+    ],
+    [
+        'nama' =>'Pablo', 
+        'npm' => 243040000, 
+        'email' => 'pablo@gmail.com', 
+        'jurusan' =>'Teknik Informatika'
+    ],
 ];
 
 echo $mahasiswa[1][2];
